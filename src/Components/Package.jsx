@@ -1,24 +1,28 @@
 import React from 'react';
 import { FaCheck } from 'react-icons/fa';
+import { CgEditBlackPoint } from "react-icons/cg";
 
 const PricingSection = () => {
     return (
-        <div className="flex flex-col items-center justify-center bg-white p-20 sm:p-16 md:p-32">
-            <div className="text-center mb-8">
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#1167b1]">
-                    Get Your Digital Card Package Now   
+        <div className="flex flex-col items-center justify-center bg-white p-8 mt-20">
+            <div className="text-center mb-4 sm:space-y-8 md:space-y-6">
+                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-medium text-[#006391]">
+                    Get Your Digital Card Package Now
                 </h1>
-                <p className="text-gray-700 mt-1">      
-                    Select a plan that best suits your needs and create professional digital cards effortlessly. 
+                <p className="text-gray-600 mt-1 text-base sm:text-[18px] lg:text-[18px]">
+                    Select a plan that best suits your needs and create professional digital cards effortlessly.
                 </p>
             </div>
 
             {/* Pricing Plans */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full max-w-6xl">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full max-w-6xl mt-12">
                 {/* Basic Plan */}
-                <div className="bg-gray-50 p-5 rounded-lg shadow-md text-left flex flex-col min-h-[400px]">
-                    <h3 className="text-[#1167b1] mb-2 font-bold">Basic Plan</h3>
-                    <h2 className="text-black text-4xl font-bold mb-5">$12.3</h2>
+                <div className="bg-gray-100 p-5 rounded-lg shadow-lg text-left flex flex-col min-h-[400px]">
+                    <li className="mb-4 text-gray-800 flex items-center">
+                        <CgEditBlackPoint className="text-[#006391] mb-2 mr-2" />
+                        <h3 className="text-[#006391] mb-2 font-bold">Basic Plan</h3>
+                    </li>
+                    <h2 className="text-black text-4xl font-semibold mb-5">$12.3</h2>
                     <ul className="list-none p-0 mb-5 flex-grow">
                         <li className="mb-4 text-gray-800 flex items-center">
                             <FaCheck className="text-black mr-2" />
@@ -33,15 +37,18 @@ const PricingSection = () => {
                             Set your rates
                         </li>
                     </ul>
-                    <button className="mt-auto w-full text-[#1167b1] border-2 border-[#1167b1] py-2 px-4 rounded transition-colors duration-300 hover:bg-[#1167b1] hover:text-white hover:border-[#1167b1]">
+                    <button className="mt-auto w-full text-[#006391] border-2 border-[#006391] py-2 px-4 rounded transition-colors duration-300 hover:bg-[#006391] hover:text-white hover:border-[#006391]">
                         Get Plan
                     </button>
                 </div>
 
                 {/* Silver Plan */}
-                <div className="bg-gray-50 p-5 rounded-lg shadow-md text-left flex flex-col min-h-[400px]">
-                    <h3 className="text-[#1167b1] mb-2 font-bold">Silver Plan</h3>
-                    <h2 className="text-black text-4xl font-bold mb-5">$43.5</h2>
+                <div className="bg-gray-100 p-5 rounded-lg shadow-lg text-left flex flex-col min-h-[400px]">
+                    <li className="mb-4 text-gray-800 flex items-center">
+                        <CgEditBlackPoint className="text-[#006391] mb-2 mr-2" />
+                        <h3 className="text-[#006391] mb-2 font-bold">Silver Plan</h3>
+                    </li>
+                    <h2 className="text-black text-4xl font-semibold mb-5">$43.5</h2>
                     <ul className="list-none p-0 mb-5 flex-grow">
                         <li className="mb-4 text-gray-800 flex items-center">
                             <FaCheck className="text-black mr-2" />
@@ -56,15 +63,18 @@ const PricingSection = () => {
                             Set your rates
                         </li>
                     </ul>
-                    <button className="mt-auto w-full text-[#1167b1] border-2 border-[#1167b1] py-2 px-4 rounded transition-colors duration-300 hover:bg-[#1167b1] hover:text-white hover:border-[#1167b1]">
+                    <button className="mt-auto w-full text-[#006391] border-2 border-[#006391] py-2 px-4 rounded transition-colors duration-300 hover:bg-[#006391] hover:text-white hover:border-[#006391]">
                         Get Plan
                     </button>
                 </div>
 
                 {/* Gold Plan */}
-                <div className="bg-gray-50 p-5 rounded-lg shadow-md text-left flex flex-col min-h-[400px]">
-                    <h3 className="text-[#1167b1] mb-2 font-bold">Gold Plan</h3>
-                    <h2 className="text-black text-4xl font-bold mb-5">$78.9</h2>
+                <div className="bg-gray-100 p-5 rounded-lg shadow-lg text-left flex flex-col min-h-[400px]">
+                    <li className="mb-4 text-gray-800 flex items-center">
+                        <CgEditBlackPoint className="text-[#006391] mb-2 mr-2" />
+                        <h3 className="text-[#006391] mb-2 font-bold">Gold Plan</h3>
+                    </li>
+                    <h2 className="text-black text-4xl font-semibold mb-5">$78.9</h2>
                     <ul className="list-none p-0 mb-5 flex-grow">
                         <li className="mb-4 text-gray-800 flex items-center">
                             <FaCheck className="text-black mr-2" />
@@ -79,7 +89,7 @@ const PricingSection = () => {
                             Set your rates
                         </li>
                     </ul>
-                    <button className="mt-auto w-full text-[#1167b1] border-2 border-[#1167b1] py-2 px-4 rounded transition-colors duration-300 hover:bg-[#1167b1] hover:text-white hover:border-[#1167b1]">
+                    <button className="mt-auto w-full text-[#006391] border-2 border-[#006391] py-2 px-4 rounded transition-colors duration-300 hover:bg-[#006391] hover:text-white hover:border-[#006391]">
                         Get Plan
                     </button>
                 </div>

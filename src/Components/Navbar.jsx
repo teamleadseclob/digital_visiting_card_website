@@ -12,10 +12,10 @@ const Navbar = () => {
 
         {/* Login/Signup Buttons */}
         <div className="flex flex-row items-center space-x-2">
-          <button className="text-[#1167b1] font-semibold border border-[#1167b1] px-4 py-1 rounded-lg hover:bg-blue-50">
+          <button className="text-[#006391] border border-[#006391] px-4 py-1 rounded-lg hover:bg-blue-50 sm:px-2 sm:py-1">
             Login
           </button> 
-          <button className="bg-[#1167b1] text-white px-4 py-1  rounded-lg hover:bg-[#0f5b9d]">
+          <button className="bg-[#006391] text-white px-4 py-1  rounded-lg hover:bg-[#006391]">
             Sign up
           </button>
         </div>
@@ -23,6 +23,5 @@ const Navbar = () => {
     </nav>
   );
 }
-
 export default Navbar;
 
