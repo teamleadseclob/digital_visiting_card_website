@@ -1,5 +1,5 @@
 import React from 'react';
-import HomeImg1 from '.././assets/Home1.svg';
+import HomeImg1 from '.././assets/home1.svg';
 import HomeImg2 from '.././assets/Home2.svg';
 
 const Home = () => {
@@ -27,7 +27,6 @@ const Home = () => {
                         <img src={HomeImg1} alt="" className="w-64 sm:w-80 md:w-full max-w-sm h-auto" />
                     </div>
                 </div>
-
 
                 {/* Container for second section */}
                 <div className="flex flex-col-reverse md:flex-row items-center justify-center  max-w-6xl p-4 md:p-6">
