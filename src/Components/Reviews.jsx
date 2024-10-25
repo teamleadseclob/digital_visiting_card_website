@@ -10,57 +10,6 @@ const Reviews = () => {
             review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
             imgUrl: 'https://via.placeholder.com/150',
         },
-        {
-            name: 'James Rodri',
-            role: 'video editor',
-            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
-            imgUrl: 'https://via.placeholder.com/150',
-        },  {
-            name: 'James Rodri',
-            role: 'video editor',
-            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
-            imgUrl: 'https://via.placeholder.com/150',
-        },  {
-            name: 'James Rodri1',
-            role: 'video editor',
-            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
-            imgUrl: 'https://via.placeholder.com/150',
-        },  {
-            name: 'James Rodri2',
-            role: 'video editor',
-            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
-            imgUrl: 'https://via.placeholder.com/150',
-        },  {
-            name: 'James Rodri3',
-            role: 'video editor',
-            review: 'The templates were easy to use, and the final design was professional. Really happy with the result. es were easy to use, and the final design was professional. Really happy with the result',
-            imgUrl: 'https://via.placeholder.com/150',
-        },  {
-            name: 'James Rodri4',
-            role: 'video editor',
-            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
-            imgUrl: 'https://via.placeholder.com/150',
-        },  {
-            name: 'James Rodri5',
-            role: 'video editor',
-            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
-            imgUrl: 'https://via.placeholder.com/150',
-        },  {
-            name: 'James Rodri6',
-            role: 'video editor',
-            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
-            imgUrl: 'https://via.placeholder.com/150',
-        },  {
-            name: 'James Rodri7',
-            role: 'video editor',
-            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
-            imgUrl: 'https://via.placeholder.com/150',
-        },  {
-            name: 'James Rodri',
-            role: 'video editor',
-            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
-            imgUrl: 'https://via.placeholder.com/150',
-        },
     ];
 
     const [reviewsPerPage, setReviewsPerPage] = useState(2);
