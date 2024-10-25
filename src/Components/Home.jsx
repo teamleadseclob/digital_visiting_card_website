@@ -1,8 +1,8 @@
 import React from 'react';
-import HomeImg1 from '.././assets/Home2.svg';
+import HomeImg1 from '.././assets/Home1.svg';
 import HomeImg2 from '.././assets/Home2.svg';
 
-const Home = () => {
+const Home = () => {    
     return (
         <>
             {/* Wrapper for overall alignment and spacing */}
