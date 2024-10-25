@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types'; // Import PropTypes for prop validation
 import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 
 const Reviews1 = ({ currentReviews, totalPages, currentPage, handlePageChange, isLongReview, reviewsPerPage }) => {
@@ -17,7 +18,6 @@ const Reviews1 = ({ currentReviews, totalPages, currentPage, handlePageChange, i
 
     // Determine how many dots to show (1 dot for 1 review per page, 2 dots for 2 reviews per page)
     const dotsToShow = reviewsPerPage === 1 ? 1 : 2;
-    
 
     return (
         <div className="w-full max-w-7xl">
@@ -25,7 +25,7 @@ const Reviews1 = ({ currentReviews, totalPages, currentPage, handlePageChange, i
             <div className="flex justify-center gap-4 py-4 overflow-hidden">
                 {currentReviews.map((client, index) => (
                     <div
-                        key={index}
+                        key={client.id || index} // Use a unique identifier or index as a fallback
                         className="bg-gray-100 p-6 rounded-lg shadow-md min-w-[300px] max-w-xs text-left flex flex-col items-start transition-opacity duration-300"
                         style={{ height: '200px' }}
                     >
@@ -81,6 +81,24 @@ const Reviews1 = ({ currentReviews, totalPages, currentPage, handlePageChange, i
             </div>  
         </div>
     );
+};
+
+// Prop validation
+Reviews1.propTypes = {
+    currentReviews: PropTypes.arrayOf(
+        PropTypes.shape({
+            id: PropTypes.string.isRequired, // Assuming each review has a unique id
+            imgUrl: PropTypes.string.isRequired,
+            name: PropTypes.string.isRequired,
+            role: PropTypes.string.isRequired,
+            review: PropTypes.string.isRequired,
+        })
+    ).isRequired,
+    totalPages: PropTypes.number.isRequired,
+    currentPage: PropTypes.number.isRequired,
+    handlePageChange: PropTypes.func.isRequired,
+    isLongReview: PropTypes.func.isRequired,
+    reviewsPerPage: PropTypes.number.isRequired,
 };
 
 export default Reviews1;
