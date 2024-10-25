@@ -39,7 +39,7 @@ const Reviews1 = ({ currentReviews, totalPages, currentPage, handlePageChange, i
                                 <h3 className="text-[18px] font-semibold">{client.name}</h3>
                                 <p className="text-gray-500 text-[14px]">{client.role}</p>
                             </div>
-                        </div>
+                        </div>  
                         <p
                             className={`text-gray-700 text-[16px] ${isLongReview(client.review) ? 'overflow-y-auto' : ''}`}
                             style={{ maxHeight: isLongReview(client.review) ? '100px' : 'auto' }}
