@@ -23,9 +23,9 @@ const Reviews1 = ({ currentReviews, totalPages, currentPage, handlePageChange, i
         <div className="w-full max-w-7xl">
             {/* Reviews Section */}
             <div className="flex justify-center gap-4 py-4 overflow-hidden">
-                {currentReviews.map((client, index) => (
+                {currentReviews.map((client) => (
                     <div
-                        key={client.id || index} // Use a unique identifier or index as a fallback
+                        key={client.id} // Use unique identifier from client
                         className="bg-gray-100 p-6 rounded-lg shadow-md min-w-[300px] max-w-xs text-left flex flex-col items-start transition-opacity duration-300"
                         style={{ height: '200px' }}
                     >
@@ -39,7 +39,7 @@ const Reviews1 = ({ currentReviews, totalPages, currentPage, handlePageChange, i
                                 <h3 className="text-[18px] font-semibold">{client.name}</h3>
                                 <p className="text-gray-500 text-[14px]">{client.role}</p>
                             </div>
-                        </div>  
+                        </div>
                         <p
                             className={`text-gray-700 text-[16px] ${isLongReview(client.review) ? 'overflow-y-auto' : ''}`}
                             style={{ maxHeight: isLongReview(client.review) ? '100px' : 'auto' }}
@@ -65,7 +65,7 @@ const Reviews1 = ({ currentReviews, totalPages, currentPage, handlePageChange, i
                     {Array.from({ length: dotsToShow }).map((_, index) => (
                         <button
                             key={index}
-                            className={`w-3 h-3 rounded-full ${currentPage === index ? 'bg-[#006391]' : 'bg-[#006391]'}`}
+                            className={`w-3 h-3 rounded-full ${currentPage === index ? 'bg-[#006391]' : 'bg-[#e0e0e0]'}`} // Add a different color for inactive dots
                             onClick={() => handlePageChange(index)}
                         ></button>
                     ))}
@@ -78,7 +78,7 @@ const Reviews1 = ({ currentReviews, totalPages, currentPage, handlePageChange, i
                 >
                     <AiOutlineRight size={18} />
                 </button>
-            </div>  
+            </div>
         </div>
     );
 };
@@ -87,7 +87,7 @@ const Reviews1 = ({ currentReviews, totalPages, currentPage, handlePageChange, i
 Reviews1.propTypes = {
     currentReviews: PropTypes.arrayOf(
         PropTypes.shape({
-            id: PropTypes.string.isRequired, // Assuming each review has a unique id
+            id: PropTypes.string.isRequired, 
             imgUrl: PropTypes.string.isRequired,
             name: PropTypes.string.isRequired,
             role: PropTypes.string.isRequired,
