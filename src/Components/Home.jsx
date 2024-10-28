@@ -1,10 +1,10 @@
 import React from 'react';
-import HomeImg1 from '.././assets/Home22.svg';
+import HomeImg1 from '.././assets/Home3.svg';
 import HomeImg2 from '.././assets/Home2.svg';
 
 const Home = () => {    
     return (
-        <>
+        <>  
             {/* Wrapper for overall alignment and spacing */}
             <div className="flex flex-col items-center justify-center bg-white p-24">
                 {/* Container for first section */}
