@@ -162,7 +162,7 @@ const Reviews1 = ({ currentReviews, totalPages, currentPage, handlePageChange, i
             <div className="flex justify-center items-center mt-6 gap-4">
                 <button
                     onClick={handlePrevious}
-                    className="text-gray-400 flex items-center justify-center"
+                    className="text-gray-200  flex items-center justify-center hover:text-gray-400"
                     disabled={currentPage === 0}
                 >
                     <AiOutlineLeft size={18} />
@@ -173,7 +173,7 @@ const Reviews1 = ({ currentReviews, totalPages, currentPage, handlePageChange, i
                     {Array.from({ length: dotsToShow }).map((_, idx) => (
                         <button
                             key={`page-dot-${currentPage}-${idx}`}
-                            className={`w-3 h-3 rounded-full ${currentPage === idx ? 'bg-[#006391]' : 'bg-[#006391]'}`} // Add a different color for inactive dots
+                            className={`w-3 h-3 rounded-full ${currentPage === idx ? 'bg-[#006391]' : 'bg-[#006391]'}`} 
                             onClick={() => handlePageChange(idx)}
                         ></button>
                     ))}
@@ -181,7 +181,7 @@ const Reviews1 = ({ currentReviews, totalPages, currentPage, handlePageChange, i
 
                 <button
                     onClick={handleNext}
-                    className="text-gray-400 flex items-center justify-center"
+                    className="text-gray-200  flex items-center justify-center hover:text-gray-400"
                     disabled={currentPage >= totalPages - 1}
                 >
                     <AiOutlineRight size={18} />

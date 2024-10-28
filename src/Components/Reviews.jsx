@@ -5,62 +5,22 @@ import Reviews1 from './../Components/Reviews1';
 const Reviews = () => {
     const clients = [
         {
-            name: 'James Rodri',
-            role: 'video editor',
-            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
+            name: 'Sample',
+            role: 'web developer',
+            review: 'A web developer builds and maintains websites, creating functional, user-friendly interfaces using programming languages like HTML, CSS, and JavaScript. They ensure responsive design, optimize performance, and integrate back-end services when needed.',
             imgUrl: 'https://via.placeholder.com/150',
         },
         {
-            name: 'James Rodri',
-            role: 'video editor',
-            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
+            name: 'Sample1',
+            role: 'editor',
+            review: 'An editor refines content by correcting grammar, structure, and style, ensuring clarity and coherence. They collaborate with writers, enhancing readability, tone, and alignment with publication standards.',
             imgUrl: 'https://via.placeholder.com/150',
         },  {
-            name: 'James Rodri',
-            role: 'video editor',
-            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
+            name: 'Sample2',
+            role: 'tester',
+            review: 'A tester ensures software functionality, identifying bugs, verifying requirements, and improving product quality through systematic testing.',
             imgUrl: 'https://via.placeholder.com/150',
-        },  {
-            name: 'James Rodri1',
-            role: 'video editor',
-            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
-            imgUrl: 'https://via.placeholder.com/150',
-        },  {
-            name: 'James Rodri2',
-            role: 'video editor',
-            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
-            imgUrl: 'https://via.placeholder.com/150',
-        },  {
-            name: 'James Rodri3',
-            role: 'video editor',
-            review: 'The templates were easy to use, and the final design was professional. Really happy with the result. es were easy to use, and the final design was professional. Really happy with the result',
-            imgUrl: 'https://via.placeholder.com/150',
-        },  {
-            name: 'James Rodri4',
-            role: 'video editor',
-            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
-            imgUrl: 'https://via.placeholder.com/150',
-        },  {
-            name: 'James Rodri5',
-            role: 'video editor',
-            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
-            imgUrl: 'https://via.placeholder.com/150',
-        },  {
-            name: 'James Rodri6',
-            role: 'video editor',
-            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
-            imgUrl: 'https://via.placeholder.com/150',
-        },  {
-            name: 'James Rodri7',
-            role: 'video editor',
-            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
-            imgUrl: 'https://via.placeholder.com/150',
-        },  {
-            name: 'James Rodri',
-            role: 'video editor',
-            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
-            imgUrl: 'https://via.placeholder.com/150',
-        },
+        }
     ];
 
     const [reviewsPerPage, setReviewsPerPage] = useState(2);
