@@ -1,10 +1,61 @@
 import React, { useState, useEffect } from 'react';
-import HomeImg1 from '.././assets/Review.svg';
+import Reviews2 from '.././assets/Review.svg';
 import Reviews1 from './../Components/Reviews1';
 
 const Reviews = () => {
     const clients = [
         {
+            name: 'James Rodri',
+            role: 'video editor',
+            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
+            imgUrl: 'https://via.placeholder.com/150',
+        },
+        {
+            name: 'James Rodri',
+            role: 'video editor',
+            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
+            imgUrl: 'https://via.placeholder.com/150',
+        },  {
+            name: 'James Rodri',
+            role: 'video editor',
+            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
+            imgUrl: 'https://via.placeholder.com/150',
+        },  {
+            name: 'James Rodri1',
+            role: 'video editor',
+            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
+            imgUrl: 'https://via.placeholder.com/150',
+        },  {
+            name: 'James Rodri2',
+            role: 'video editor',
+            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
+            imgUrl: 'https://via.placeholder.com/150',
+        },  {
+            name: 'James Rodri3',
+            role: 'video editor',
+            review: 'The templates were easy to use, and the final design was professional. Really happy with the result. es were easy to use, and the final design was professional. Really happy with the result',
+            imgUrl: 'https://via.placeholder.com/150',
+        },  {
+            name: 'James Rodri4',
+            role: 'video editor',
+            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
+            imgUrl: 'https://via.placeholder.com/150',
+        },  {
+            name: 'James Rodri5',
+            role: 'video editor',
+            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
+            imgUrl: 'https://via.placeholder.com/150',
+        },  {
+            name: 'James Rodri6',
+            role: 'video editor',
+            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
+            imgUrl: 'https://via.placeholder.com/150',
+        },  {
+            name: 'James Rodri7',
+            role: 'video editor',
+            review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
+            imgUrl: 'https://via.placeholder.com/150',
+        },  {
             name: 'James Rodri',
             role: 'video editor',
             review: 'The templates were easy to use, and the final design was professional. Really happy with the result.',
@@ -57,7 +108,7 @@ const Reviews = () => {
         <div className="bg-white flex flex-col items-center justify-center p-8 mt-20">
             <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-6xl p-4 md:p-6">
                 <div className="w-full md:w-1/2 mb-4 md:mb-0 flex justify-center">
-                    <img src={HomeImg1} alt="Happy Clients" className="w-64 sm:w-80 md:w-full max-w-sm h-auto" />
+                    <img src={Reviews2} alt="Happy Clients" className="w-64 sm:w-80 md:w-full max-w-sm h-auto" />
                 </div>
                 <div className="w-full text-center md:text-left pl-0 md:pl-20">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] font-medium text-[#006391]">
