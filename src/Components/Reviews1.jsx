@@ -130,7 +130,7 @@ const Reviews1 = ({ currentReviews, totalPages, currentPage, handlePageChange, i
     return (
         <div className="w-full max-w-7xl">
             {/* Reviews Section */}
-            <div className="flex justify-center gap-4 py-4 overflow-hidden">
+            <div className="flex justify-center lg:justify-start gap-4 py-4 overflow-hidden">
                 {currentReviews.map((client) => (
                     <div
                         key={client.id} 
