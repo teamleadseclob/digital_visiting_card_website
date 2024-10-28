@@ -11,14 +11,14 @@ const Reviews = () => {
             imgUrl: 'https://via.placeholder.com/150',
         },
         {
-            name: 'Sample1',
+            name: 'Sample1',        
             role: 'editor',
             review: 'An editor refines content by correcting grammar, structure, and style, ensuring clarity and coherence. They collaborate with writers, enhancing readability, tone, and alignment with publication standards.',
             imgUrl: 'https://via.placeholder.com/150',
-        },  {
+        },  {   
             name: 'Sample2',
             role: 'tester',
-            review: 'A tester ensures software functionality, identifying bugs, verifying requirements, and improving product quality through systematic testing.',
+            review: 'A tester ensures software functionality, identifying bugs, verifying requirements, and product quality through.',
             imgUrl: 'https://via.placeholder.com/150',
         }
     ];

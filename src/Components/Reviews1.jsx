@@ -173,7 +173,7 @@ const Reviews1 = ({ currentReviews, totalPages, currentPage, handlePageChange, i
                     {Array.from({ length: dotsToShow }).map((_, idx) => (
                         <button
                             key={`page-dot-${currentPage}-${idx}`}
-                            className={`w-3 h-3 rounded-full ${currentPage === idx ? 'bg-[#006391]' : 'bg-[#006391]'}`} 
+                            className={`w-3 h-3 rounded-full ${currentPage === idx ? 'bg-[#006391]' : 'bg-gray-400'}`} 
                             onClick={() => handlePageChange(idx)}
                         ></button>
                     ))}
