@@ -103,8 +103,11 @@
 
 // export default Reviews1;
 
+
+
+
 import React from 'react';
-import PropTypes from 'prop-types'; // Import PropTypes for prop validation
+import PropTypes from 'prop-types'; 
 import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 
 const Reviews1 = ({ currentReviews, totalPages, currentPage, handlePageChange, isLongReview, reviewsPerPage }) => {
@@ -170,7 +173,7 @@ const Reviews1 = ({ currentReviews, totalPages, currentPage, handlePageChange, i
                     {Array.from({ length: dotsToShow }).map((_, idx) => (
                         <button
                             key={`page-dot-${currentPage}-${idx}`}
-                            className={`w-3 h-3 rounded-full ${currentPage === idx ? 'bg-[#006391]' : 'bg-[#e0e0e0]'}`} // Add a different color for inactive dots
+                            className={`w-3 h-3 rounded-full ${currentPage === idx ? 'bg-[#006391]' : 'bg-[#006391]'}`} // Add a different color for inactive dots
                             onClick={() => handlePageChange(idx)}
                         ></button>
                     ))}

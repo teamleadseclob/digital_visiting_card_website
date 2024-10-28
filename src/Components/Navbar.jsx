@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="w-40 h-auto">
-          <img src={Logo} alt="Website Logo" className="object-contain" />
+          <img src={Logo} alt="Website Logo" className="object-contain" />  
         </div>
 
         {/* Login/Signup Buttons */}

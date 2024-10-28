@@ -11,7 +11,7 @@ const Footer = () => {
           {/* Logo */}
           <img src={LogoFooter} alt="Seclob Logo" /> 
         </div>
-        {/* Section 2: Learn More */}
+        {/* Section 2: Learn More */} 
         <div className="mb-6 lg:col-span-1">
           <h2 className="font-medium mb-4 text-base sm:text-[18px] lg:text-[18px]">Learn More</h2>
           <ul className="text-sm space-y-2 sm:text-[14px] lg:text-[14px]">

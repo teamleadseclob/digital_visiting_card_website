@@ -163,7 +163,7 @@ const PricingSection = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full max-w-6xl mt-12">
                 {plans.map((plan, index) => (
                     <PricingPlan 
-                        key={plan.name} // Use a unique value instead of index
+                        key={plan.name} 
                         planName={plan.name}
                         price={plan.price}
                         features={plan.features}
