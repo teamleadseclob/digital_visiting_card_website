@@ -165,7 +165,7 @@ const Reviews1 = ({ currentReviews, totalPages, currentPage, handlePageChange, i
                     className="text-gray-200  flex items-center justify-center hover:text-gray-400"
                     disabled={currentPage === 0}
                 >
-                    <AiOutlineLeft size={18} />
+                    <AiOutlineLeft size={16} />
                 </button>
 
                 {/* Conditionally render dots based on reviewsPerPage */}
@@ -173,7 +173,7 @@ const Reviews1 = ({ currentReviews, totalPages, currentPage, handlePageChange, i
                     {Array.from({ length: dotsToShow }).map((_, idx) => (
                         <button
                             key={`page-dot-${currentPage}-${idx}`}
-                            className={`w-3 h-3 rounded-full ${currentPage === idx ? 'bg-[#006391]' : 'bg-gray-400'}`} 
+                            className={`w-2 h-2 rounded-full ${currentPage === idx ? 'bg-[#006391]' : 'bg-gray-400'}`} 
                             onClick={() => handlePageChange(idx)}
                         ></button>
                     ))}
@@ -184,7 +184,7 @@ const Reviews1 = ({ currentReviews, totalPages, currentPage, handlePageChange, i
                     className="text-gray-200  flex items-center justify-center hover:text-gray-400"
                     disabled={currentPage >= totalPages - 1}
                 >
-                    <AiOutlineRight size={18} />
+                    <AiOutlineRight size={16} />
                 </button>
             </div>
         </div>
