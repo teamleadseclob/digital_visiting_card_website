@@ -8,7 +8,7 @@ const CardComponent = () => {
   return (
     <div className="flex flex-col items-center justify-center bg-white p-8 mt-20">
       {/* Heading */}
-      <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-medium text-[#006391]">Type of Cards</h1>
+      <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-medium text-[#006391]">Type of cards</h1>
       
       {/* Card Row */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full max-w-6xl mt-12">
