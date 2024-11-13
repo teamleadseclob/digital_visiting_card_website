@@ -2,7 +2,7 @@ import React from 'react'
 import Card1 from '../assets/TypeCard1.png';
 import Card2 from '../assets/TypeCard2.png';
 import Card3 from '../assets/TypeCard3.png';
-import Card4 from '../assets/TypeCard4.png'; // You can add more card images as needed
+import Card4 from '../assets/TypeCard4.png'; 
 import Card5 from '../assets/TypeCard5.png';
 import Card6 from '../assets/TypeCard6.png';
 import Card7 from '../assets/TypeCard7.png';
