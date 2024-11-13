@@ -9,7 +9,7 @@ const Footer = () => {
         {/* Section 1: Logo */}
         <div className="mb-8 w-40 h-auto items-start">
           {/* Logo */}
-          <img src={LogoFooter} alt="Seclob Logo" /> 
+          <img src={LogoFooter} alt="Seclob Logo" />  
         </div>
         {/* Section 2: Learn More */} 
         <div className="mb-6 lg:col-span-1">
