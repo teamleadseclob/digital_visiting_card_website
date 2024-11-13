@@ -13,7 +13,7 @@ const CardWork = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full max-w-6xl mt-12">
 
                 {/* PVC Card */}
-                <div className="bg-white rounded-lg shadow-md overflow-hidden flex items-center justify-center relative p-8 min-h-[300px] border-8 border-gray-300">
+                <div className="bg-white rounded-2xl shadow-md overflow-hidden flex items-center justify-center relative p-8 min-h-[300px] border-8 border-gray-300">
                     <div className="absolute top-20 left-1/2 transform -translate-x-1/2 text-gray-400 text-3xl">
                         <FaPencilAlt />
                     </div>
@@ -24,7 +24,7 @@ const CardWork = () => {
                 </div>
 
                 {/* Metal Card */}
-                <div className="bg-white rounded-lg shadow-md overflow-hidden flex items-center justify-center relative p-8 min-h-[300px] border-8 border-gray-300">
+                <div className="bg-white rounded-2xl shadow-md overflow-hidden flex items-center justify-center relative p-8 min-h-[300px] border-8 border-gray-300">
                     <div className="absolute top-20 left-1/2 transform -translate-x-1/2 text-gray-400 text-4xl">
                         <PiMoneyBold />
                     </div>  
@@ -35,7 +35,7 @@ const CardWork = () => {
                 </div>
 
                 {/* Bamboo Card */}
-                <div className="bg-white rounded-lg shadow-md overflow-hidden flex items-center justify-center relative p-8 min-h-[300px] border-8  border-gray-300">
+                <div className="bg-white rounded-2xl shadow-md overflow-hidden flex items-center justify-center relative p-8 min-h-[300px] border-8  border-gray-300">
                     <div className="absolute top-20 left-1/2 transform -translate-x-1/2 text-gray-400 text-4xl">
                         <IoShareSocialSharp />
                     </div>
