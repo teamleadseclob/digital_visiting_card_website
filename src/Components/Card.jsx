@@ -21,7 +21,7 @@ const CardComponent = () => {
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
-            <h3 className="text-xl font-semibold">PVC Cards</h3>
+            <h3 className="text-xl text-center font-semibold">PVC Cards</h3>
             <p className="text-gray-600 text-sm mt-2">
               Plastic cards made from polyvinyl chloride (PVC), a synthetic polymer.
             </p>
@@ -40,7 +40,7 @@ const CardComponent = () => {
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
-            <h3 className="text-xl font-semibold">Metal Cards</h3>
+            <h3 className="text-xl text-center font-semibold">Metal Cards</h3>
             <p className="text-gray-600 text-sm mt-2">
               These cards are generally made of metal, offering durability.
             </p>
@@ -59,7 +59,7 @@ const CardComponent = () => {
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
-            <h3 className="text-xl font-semibold">Bamboo Cards</h3>
+            <h3 className="text-xl text-center font-semibold">Bamboo Cards</h3>
             <p className="text-gray-600 text-sm mt-2">
               Unique cards crafted from bamboo and blended with cotton.
             </p>

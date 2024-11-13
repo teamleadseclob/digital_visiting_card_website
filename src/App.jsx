@@ -5,6 +5,7 @@ import Package from './Components/Package';
 import Card from './Components/Card';
 import Template from './Components/Templates';
 import CardWork from './Components/CardWork';
+import Benefits from './Components/Benefits';
 import Reviews from './Components/Reviews';
 import Footer from './Components/Footer';
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Card/>
       <Template/>
       <CardWork/>
+      <Benefits/>
       <Reviews/>
       <Footer/>
     </div>
