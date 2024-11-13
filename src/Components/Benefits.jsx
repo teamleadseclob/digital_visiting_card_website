@@ -17,7 +17,7 @@ const Benefits = () => {
       {/* Card Row */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 w-full max-w-6xl mt-12">
         
-        {/* PVC Card */}
+        {/* Card 1 */}
         <div className="bg-white rounded-2xl shadow-md overflow-hidden relative">
           <img 
             src={Card1}
@@ -32,7 +32,7 @@ const Benefits = () => {
           </div>
         </div>
 
-        {/* Metal Card */}
+        {/* Card 2 */}
         <div className="bg-white rounded-2xl shadow-md overflow-hidden relative">
           <img 
             src={Card2}
@@ -47,7 +47,7 @@ const Benefits = () => {
           </div>
         </div>
 
-        {/* Bamboo Card */}
+        {/* Card 3 */}
         <div className="bg-white rounded-2xl shadow-md overflow-hidden relative">
           <img 
             src={Card3}
