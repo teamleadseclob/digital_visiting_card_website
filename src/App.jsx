@@ -2,6 +2,7 @@ import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import Clients from './Components/Clients';
 import Package from './Components/Package';
+import Card from './Components/Card';
 import Reviews from './Components/Reviews';
 import Footer from './Components/Footer';
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Home/>
       <Clients/>
       <Package/>
+      <Card/>
       <Reviews/>
       <Footer/>
     </div>
