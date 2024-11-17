@@ -32,6 +32,7 @@ const Benefits = () => {
           </div>
         </div>
 
+
         {/* Card 2 */}
         <div className="bg-white rounded-2xl shadow-md overflow-hidden relative">
           <img 
