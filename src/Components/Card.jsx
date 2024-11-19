@@ -14,20 +14,20 @@ const CardComponent = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full max-w-6xl mt-12">
         
         {/* PVC Card */}
-        <div className="bg-white rounded-lg shadow-md overflow-hidden relative">
+        <div className="bg-white rounded-lg shadow-md  overflow-hidden relative">
           <img 
             src={Card1}
             alt="PVC Card" 
             className="w-full h-48 object-cover"
           />
-          <div className="p-4">
+          <div className="p-4 ">
             <h3 className="text-xl text-center font-semibold">PVC Cards</h3>
             <p className="text-gray-600 text-sm mt-2">
               Plastic cards made from polyvinyl chloride (PVC), a synthetic polymer.
             </p>
           </div>
           {/* Arrow Icon */}
-          <div className="absolute bottom-4 right-4 text-gray-400 text-2xl">
+          <div className="absolute bottom-4 right-4 text-gray-400 cursor-pointer text-2xl">
           <IoIosArrowDropright />
           </div>
         </div>
@@ -46,7 +46,7 @@ const CardComponent = () => {
             </p>
           </div>
           {/* Arrow Icon */}
-          <div className="absolute bottom-4 right-4 text-gray-400 text-2xl">
+          <div className="absolute bottom-4 right-4 text-gray-400 cursor-pointer text-2xl">
           <IoIosArrowDropright />
           </div>
         </div>
@@ -65,7 +65,7 @@ const CardComponent = () => {
             </p>
           </div>
           {/* Arrow Icon */}
-          <div className="absolute bottom-4 right-4 text-gray-400 text-2xl">
+          <div className="absolute bottom-4 right-4 cursor-pointer text-gray-400 text-2xl">
           <IoIosArrowDropright />
           </div>
         </div>

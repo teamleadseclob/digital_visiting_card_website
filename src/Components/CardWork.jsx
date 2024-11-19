@@ -20,11 +20,16 @@ const CardWork = () => {
             {/* Features Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full max-w-5xl mt-10">
                 {features.map((feature, index) => (
-                    <div key={index} className="bg-white rounded-2xl shadow-md overflow-hidden flex items-center justify-center relative p-6 min-h-[250px] border-8 border-gray-300">
-                        <div className="absolute top-16 left-1/2 transform -translate-x-1/2 text-gray-400 text-3xl">
+                    <div 
+                        key={index} 
+                        className="bg-white rounded-2xl shadow-md min-h-[220px] flex flex-col items-center justify-center relative p-6 border-8 border-[#EEEEEE]"
+                    >
+                        {/* Icon */}
+                        <div className="text-gray-400 text-4xl mb-4">
                             {feature.icon}
                         </div>
-                        <h1 className="text-center text-gray-400 font-medium text-lg sm:text-xl md:text-2xl mt-12">
+                        {/* Label */}
+                        <h1 className="text-center text-gray-400 font-medium text-lg sm:text-xl md:text-2xl">
                             {feature.label}
                         </h1>
                     </div>
@@ -35,3 +40,4 @@ const CardWork = () => {
 };
 
 export default CardWork;
+ 

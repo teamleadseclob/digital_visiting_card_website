@@ -20,14 +20,14 @@ const Features = () => {
                 {[
                     { icon: <MdPhone />, label: 'One click call' },
                     { icon: <IoLogoWhatsapp />, label: 'One click WhatsApp' },
-                    { icon: <BiLogoGmail />, label: 'One click email' },
+                    { icon: <BiLogoGmail />, label: 'One click Email' },
                     { icon: <MdFeedback />, label: 'Get customer feedbacks' },
-                    { icon: <MdContacts />, label: 'Add contacts easily' },
+                    { icon: <MdContacts />, label: 'Add to contacts easily' },
                     { icon: <IoShareSocialSharp />, label: 'Unlimited shares' },
                     { icon: <IoLinkSharp />, label: 'Websites & Social links' },
                     { icon: <SiGoogleforms />, label: 'Enquiry form' }
                 ].map((feature, index) => (
-                    <div key={index} className="bg-white rounded-3xl shadow-md overflow-hidden flex flex-col items-center justify-center relative p-6 min-h-[100px] border-8 border-gray-300">
+                    <div key={index} className="bg-white rounded-3xl shadow-md overflow-hidden flex flex-col items-center justify-center relative p-6 min-h-[100px] border-8 border-[#EEEEEE]">
                         <div className="text-gray-400 text-3xl mb-4">
                             {feature.icon}
                         </div>
